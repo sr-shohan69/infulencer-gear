@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:ital@0;1&family=Poppins:wght@500&display=swap');
+body{
+    background-color: #f7f3f3;
+    font-family: 'Poppins', sans-serif;
+    color: #1d1c1c;
+}
+header{
+    padding: 50px;
+}
+.influencer-intro{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.influencer-login{
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 20px;
+}
+.influencer-login {
+    display: flex;
+}
+.influencer-second-head{
+    margin-top: 150px;
+    height: 800px;
+    width: 1400pxpx;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.influencer-info{
+    width: 680px;
+}
+.influencer-info-title{
+    font-size: 60px;
+}
+.influencer-second-details{
+    font-weight: bold;
+}
+.button-prebook{
+    width: 150px;
+    height: 40px;
+    border-radius: 35px;
+    color: aliceblue;
+    background-color: #eb235f;
+    border: none;
+}
+.influencer-second-main-img{
+    background-image: url(/images/Circle\ design.svg);
+}
+.main-onlin-shop{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    width: 1100px;
+    height: 100px;
+    box-shadow: 2px 0px 2px ;
+    padding: 10px;
+    align-items: center;
+    margin:0 auto ;
+}
+.main-onlin-shop{
+    margin-bottom: 115px;
+}
+.section-title{
+    text-align: center;
+}
+.products, .product-banner img{
+    height: 144px;
+    width: 192px;
+}
+.fa-star.filled{
+    color: #ffbc04;
+}
+.fa-star.empty{
+    color: darkgray;
+}
+.all-product{
+    margin-left: 234px;
+    width: 72%;
+}
+.prodects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+
+}
+.product {
+    background-color: #fff;
+    grid-row-gap: 50px;
+   height: 400px;
+   width: 300px;
+   padding: 15px;
+   box-shadow: 2px 2px 2px 2px white;
+}
+.product-banner img{
+    width: 100%; 
+}
+.see-more{
+    color: #eb235f;
+    margin-top: 34px;
+    margin-left: 936px;
+    font-size: 18px;
+}
+.Featured{
+    margin-top: 50px;
+    width: 1336px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 140px;
+}
+.featured-title{
+    font-size: 25px;
+}
+.featured-banner{
+    margin-left: 196px;   
+}
+.featured-button-info{
+    height: 35px;
+    width: 134px;
+    margin-top: 20px;
+    background-color: #eb235f;
+    color: #f7f3f3;
+    border: none;
+    border-radius: 2px;
+}
+.influencer-copyright{
+    background-color: rgb(2, 2, 19);
+    color: rgb(255, 247, 237);
+    list-style: none;
+    height: 400px;
+}
+.fotter-title{
+    text-align: center;
+    padding-top: 50px;
+}
+.influencer-copyright-details{
+    text-align: center;
+    font-size: 13px;
+}
+.logo-details{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
